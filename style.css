@@ -1,0 +1,226 @@
+/****************** Header Section **********************/
+.hd-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+    color: #fffff8;
+    align-items: center;
+    width: 100%;
+    background-color: #104975;
+}
+
+#myimg{
+
+    width: 40%;
+    height: 50%;
+    border-radius: 100% 100% 100% 100%;
+    border: 2px solid orangered;
+    margin-left: 50%;
+    margin-top: 2%;
+
+
+}
+/****************** Navigation Section **********************/
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background-color: orangered;
+    
+
+}
+
+.nav-box{
+    
+    
+}
+
+/****************** Main Section **********************/
+.container1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+
+.box{
+
+}
+/****** Education box *********/
+.education{
+
+
+
+}
+
+.courses{
+    display: inline-block;
+      
+}
+
+.skills p{
+    display: inline-block;
+   
+    border-radius: 46%;
+    background-color: #104975;
+    color: white;
+    font-size: 20px;
+    margin-top: 1%;
+    padding: 10px;
+    
+}
+
+.certificate h3{
+    width: 80%;
+}
+
+
+
+/****************** languages Section **********************/
+
+.languages p{
+    display: inline-block;
+   
+    border-radius: 9%;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    margin-top: 1%;
+    padding: 10px;
+    margin-left: 15%;
+    
+}
+/****************** Footer Section **********************/
+.ft-container{
+    display: grid;
+    grid-template-columns: 30% 25% 20%;
+    
+    color: #fffff8;
+    align-items: center;
+    width: 100%;
+    column-gap: 10%;
+    background-color: #104975;
+}
+
+
+
+/****************** General Section **********************/
+
+
+body{
+
+    background-color: #fffff8;
+    
+}
+h1{
+    margin: 0px 0px 0px 25px;
+
+}
+
+h2{
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: orangered;
+    margin-left: 25px ;
+}
+
+h3{
+    font-weight: bold;
+    margin: 0px 0px 0px 25px;
+    
+ 
+}
+
+h5{
+    margin: 0px 0px 15px 25px;
+    font-style: italic;
+    color: gray;
+
+    
+}
+
+p{
+    margin: 0px 0px 0px 25px;
+       
+       
+}
+
+h6{
+    margin: 5px 0px -15px 25px;
+    color: orangered;
+  
+
+}
+ul{
+    
+    
+}
+
+small{
+    font-weight:normal ;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px ;
+    
+    color: #fff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    
+}
+
+a, a:link, a:visited{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px ;
+    color: #fff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-top: 8%;
+    font-weight: bold;
+    
+   
+
+
+}
+
+a:hover{
+    color: #54b3d6;
+    text-decoration: underline;
+    
+    
+}
+
+.likns a:visited {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px 0px 0px ;
+    box-shadow: inset 7 2 2 2 #fff;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    margin-top: 8%;
+    font-weight: bold;
+   
+}
+
+.likns a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  }
